@@ -17,47 +17,48 @@
       |  o o o  |     -------------------
       | [=====] |     Nombre       : Luis Carpio
       +---------+     Especialidad : Desarrollador Backend & Bases de Datos
-      |  o o o  |     Stack Core   : TypeScript · Python · NestJS · FastAPI
-      | [=====] |     Bases Datos  : PostgreSQL · Prisma ORM · Neon · Supabase · SQLite
-      +---------+     Cloud/Deploy : Docker · Render · GitHub Actions
-      |  o o o  |     Seguridad    : JWT & RBAC · Threat Intelligence · Micro-SIEM
-      | [=====] |     Filosofía    : APIs de baja latencia, tipado fuerte y cero fricción
+      |  o o o  |     Stack Core   : TypeScript · Python · NestJS · FastAPI · Fastify
+      | [=====] |     Lenguajes    : Java · Go · Rust · Node.js
+      +---------+     Bases Datos  : PostgreSQL · Prisma ORM · Neon · Supabase
+      |  o o o  |     Cloud/Deploy : Docker · Render · Vercel · Git
+      | [=====] |     Herramientas : VS Code · Obsidian · JWT & Auth
       +---------+     Uptime       : 99.9% (alimentado a café)
 ```
 
 ---
 
-### Backend y datos
+### Backend and data
 
 <p align="left">
   <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-  <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   <img src="https://img.shields.io/badge/NODE.JS-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/NESTJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
   <img src="https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/FASTIFY-000000?style=for-the-badge&logo=fastify&logoColor=white" />
+  <img src="https://img.shields.io/badge/JAVA-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/GO-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/RUST-000000?style=for-the-badge&logo=rust&logoColor=white" />
   <img src="https://img.shields.io/badge/POSTGRESQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/PRISMA-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
   <img src="https://img.shields.io/badge/NEON_DB-00E599?style=for-the-badge&logo=postgresql&logoColor=black" />
   <img src="https://img.shields.io/badge/SUPABASE-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLITE-07405E?style=for-the-badge&logo=sqlite&logoColor=white" />
   <img src="https://img.shields.io/badge/REST_APIS-005571?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/OPENAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white" />
 </p>
 
-### Cloud, DevOps y seguridad
+### Cloud, DevOps and tools
 
 <p align="left">
   <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/RENDER-46E3B7?style=for-the-badge&logo=render&logoColor=black" />
-  <img src="https://img.shields.io/badge/GITHUB_ACTIONS-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/VERCEL-000000?style=for-the-badge&logo=vercel&logoColor=white" />
   <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/POSTMAN-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+  <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
   <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/EXPO-000020?style=for-the-badge&logo=expo&logoColor=white" />
-  <img src="https://img.shields.io/badge/MITRE_ATT%26CK-FF6600?style=for-the-badge&logo=security&logoColor=white" />
-  <img src="https://img.shields.io/badge/THREAT_INTEL-8B0000?style=for-the-badge&logo=target&logoColor=white" />
-  <img src="https://img.shields.io/badge/JWT_&_RBAC-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
+  <img src="https://img.shields.io/badge/VS_CODE-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
+  <img src="https://img.shields.io/badge/OBSIDIAN-483699?style=for-the-badge&logo=obsidian&logoColor=white" />
 </p>
 
 ---
