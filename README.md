@@ -1,67 +1,60 @@
 <div align="center">
 
-```text
-    __    __  ___________    _________    ____  ____  ________ 
-   / /   / / / /  _/ ___/   / ____/   |  / __ \/ __ \/  _/ __ \
-  / /   / / / // / \__ \   / /   / /| | / /_/ / /_/ // // / / /
- / /___/ /_/ // / ___/ /  / /___/ ___ |/ _, _/ ____// // /_/ / 
-/_____/\____/___//____/   \____/_/  |_/_/ |_/_/   /___/\____/  
-```
+# 👋 ¡Hola! Soy Luis Carpio
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=7AA2F7&center=true&vcenter=true&width=560&lines=Backend+Software+Engineer;High-Availability+REST+APIs;Database+Architect+%7C+PostgreSQL+%26+Prisma;Micro-SIEM+%26+Threat+Detection+Engine" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=7AA2F7&center=true&vcenter=true&width=580&lines=%C2%A1Buenas!+Bienvenido+a+mi+espacio;Desarrollador+Backend+%7C+NestJS+%26+FastAPI;Arquitectura+de+Datos+%26+PostgreSQL;Enfocado+en+APIs+limpias+y+cero+fricci%C3%B3n" alt="Typing SVG" />
 </p>
 
 </div>
 
 ```bash
-guest@luis-node:~$ neofetch --backend-specs
+[luis@backend-server ~]$ neofetch --resumen
 ```
 
-```yaml
-host: luisGCarpio @ production-cluster
-uptime: 99.98% (zero unhandled exceptions logged today)
-kernel: Linux x86_64 / Node.js 20+ LTS / Python 3.11+
-shell: bash / zsh / powershell
-target_environments: Cloud Containers, Linux Servers, Serverless DBs
-status: ACTIVE — Orchestrating APIs, querying databases & hardening endpoints
+```text
+      +---------+     luis@backend-server
+      |  o o o  |     -------------------
+      | [=====] |     Nombre       : Luis Carpio
+      +---------+     Especialidad : Desarrollador Backend & Bases de Datos
+      |  o o o  |     Stack Core   : TypeScript · Python · NestJS · FastAPI
+      | [=====] |     Bases Datos  : PostgreSQL · Prisma ORM · Neon · Supabase · SQLite
+      +---------+     Cloud/Deploy : Docker · Render · GitHub Actions
+      |  o o o  |     Seguridad    : JWT & RBAC · Threat Intelligence · Micro-SIEM
+      | [=====] |     Filosofía    : APIs de baja latencia, tipado fuerte y cero fricción
+      +---------+     Uptime       : 99.9% (alimentado a café)
 ```
 
 ---
 
-### Backend and data
+### Backend y datos
 
 <p align="left">
-  <img src="https://img.shields.io/badge/GO-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
   <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/RUST-000000?style=for-the-badge&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
-  <img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
   <img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/JAVASCRIPT-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img src="https://img.shields.io/badge/NODE.JS-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/NESTJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
   <img src="https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
-  <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/POSTGRESQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PRISMA-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
+  <img src="https://img.shields.io/badge/NEON_DB-00E599?style=for-the-badge&logo=postgresql&logoColor=black" />
+  <img src="https://img.shields.io/badge/SUPABASE-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLITE-07405E?style=for-the-badge&logo=sqlite&logoColor=white" />
   <img src="https://img.shields.io/badge/REST_APIS-005571?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/OPENAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white" />
-  <img src="https://img.shields.io/badge/NATS-27AAE1?style=for-the-badge&logo=natsdotio&logoColor=white" />
-  <img src="https://img.shields.io/badge/POSTGRESQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL_SERVER-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
-  <img src="https://img.shields.io/badge/PRISMA-2D3748?style=for-the-badge&logo=prisma&logoColor=white" />
-  <img src="https://img.shields.io/badge/SUPABASE-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-  <img src="https://img.shields.io/badge/NEON_DB-00E599?style=for-the-badge&logo=postgresql&logoColor=black" />
-  <img src="https://img.shields.io/badge/REDIS-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLITE-07405E?style=for-the-badge&logo=sqlite&logoColor=white" />
 </p>
 
-### Cloud, DevOps and security
+### Cloud, DevOps y seguridad
 
 <p align="left">
   <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-  <img src="https://img.shields.io/badge/BASH-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
-  <img src="https://img.shields.io/badge/NGINX-009639?style=for-the-badge&logo=nginx&logoColor=white" />
   <img src="https://img.shields.io/badge/RENDER-46E3B7?style=for-the-badge&logo=render&logoColor=black" />
   <img src="https://img.shields.io/badge/GITHUB_ACTIONS-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
+  <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/POSTMAN-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+  <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/EXPO-000020?style=for-the-badge&logo=expo&logoColor=white" />
   <img src="https://img.shields.io/badge/MITRE_ATT%26CK-FF6600?style=for-the-badge&logo=security&logoColor=white" />
   <img src="https://img.shields.io/badge/THREAT_INTEL-8B0000?style=for-the-badge&logo=target&logoColor=white" />
   <img src="https://img.shields.io/badge/JWT_&_RBAC-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
@@ -72,7 +65,7 @@ status: ACTIVE — Orchestrating APIs, querying databases & hardening endpoints
 ### 🕹️ Pac-Man Contribution Arcade
 
 ```bash
-guest@luis-node:~$ pacman --arcade-mode --eat-contributions
+[luis@arcade ~]$ pacman --arcade-mode --eat-contributions
 ```
 
 <div align="center">
@@ -85,69 +78,69 @@ guest@luis-node:~$ pacman --arcade-mode --eat-contributions
 
 ---
 
-### 🚀 Production Cluster & Active Services
+### 🚀 Servicios Activos & Proyectos
 
 ```bash
-guest@luis-node:~$ kubectl get services -o custom-columns=NAME:.metadata.name,STATUS:.status.phase,PORT:.spec.ports
+[luis@cluster ~]$ kubectl get services -o custom-columns=SERVICIO:.metadata.name,ESTADO:.status.phase,STACK:.spec.type
 ```
 
 <details open>
-<summary><b>🟢 <code>wood-api.service</code> — Financial Core & Realtime Balance Engine</b></summary>
+<summary><b>🟢 <code>wood-api.service</code> — Motor Financiero y Cálculo de Balances</b></summary>
 <br>
 
-| Metric / Property | Value |
+| Métrica / Propiedad | Detalle |
 | :--- | :--- |
-| **Status** | `● active (running)` — High-Throughput Financial Backend |
+| **Estado** | `● activo (running)` — Backend transaccional de alta respuesta |
 | **Stack** | `NestJS 11` · `Prisma 6` · `PostgreSQL (Neon Serverless)` · `Render HTTPS` · `Expo SDK 58` |
-| **Endpoints** | `POST /movimientos` (ingreso/gasto en <5s) · `GET /balance/diario` · `GET /metas/progreso` |
-| **Highlights** | Diseñado para microempresarios sin fricción contable: calcula utilidades reales sin arqueos manuales ni desbalance de caja. |
+| **Endpoints Clave** | `POST /movimientos` (registro en <5s) · `GET /balance/diario` · `GET /metas/progreso` |
+| **Propósito** | Diseñado para microempresarios sin fricción contable: calcula utilidades reales sin arqueos manuales ni descuadre de caja. |
 
 </details>
 
 <br>
 
 <details open>
-<summary><b>🟢 <code>lasana-erp.service</code> — Multi-Branch Pharmaceutical & Inventory API</b></summary>
+<summary><b>🟢 <code>lasana-erp.service</code> — API Farmacéutica Multisede e Inventario</b></summary>
 <br>
 
-| Metric / Property | Value |
+| Métrica / Propiedad | Detalle |
 | :--- | :--- |
-| **Status** | `● active (running)` — Enterprise POS & Logistics Hub |
+| **Estado** | `● activo (running)` — Hub logístico y POS empresarial |
 | **Stack** | `NestJS` · `Prisma ORM` · `PostgreSQL (Supabase)` · `JWT / RBAC` · `Swagger Docs` |
-| **Endpoints** | `POST /pos/checkout` · `GET /inventario/fefo-lotes` · `POST /transferencias/inter-sede` |
-| **Highlights** | Política de inventario estricta **FEFO** (*First Expired, First Out*) para evitar vencimiento de medicamentos, auditoría de cajas y control de roles por sucursal. |
+| **Endpoints Clave** | `POST /pos/checkout` · `GET /inventario/fefo-lotes` · `POST /transferencias/inter-sede` |
+| **Propósito** | Política de inventario estricta **FEFO** (*First Expired, First Out*) para evitar vencimiento de medicamentos, auditoría de cajas y control de roles por sucursal. |
 
 </details>
 
 <br>
 
 <details open>
-<summary><b>🟢 <code>pysec-flow.service</code> — Micro-SIEM & Threat Detection Engine</b></summary>
+<summary><b>🟢 <code>pysec-flow.service</code> — Micro-SIEM y Detección de Amenazas</b></summary>
 <br>
 
-| Metric / Property | Value |
+| Métrica / Propiedad | Detalle |
 | :--- | :--- |
-| **Status** | `● active (running)` — Autonomous Cyber Threat Telemetry |
+| **Estado** | `● activo (running)` — Telemetría autónoma de ciberseguridad |
 | **Stack** | `Python 3.11+` · `FastAPI` · `Pydantic v2` · `MITRE ATT&CK` · `AbuseIPDB API` · `SQLite/Postgres` |
-| **Endpoints** | `POST /api/v1/ingest` · `GET /api/v1/incidents` · `WS /telemetry/stream` |
-| **Highlights** | Correlación en ventanas de tiempo deslizantes para detección de fuerza bruta SSH y escaneos web; enriquecimiento IP con threat intelligence global y alertas automáticas a Telegram. |
+| **Endpoints Clave** | `POST /api/v1/ingest` · `GET /api/v1/incidents` · `WS /telemetry/stream` |
+| **Propósito** | Correlación en ventanas de tiempo deslizantes para detección de fuerza bruta SSH y escaneos web; enriquecimiento IP con threat intelligence global y alertas automáticas a Telegram. |
 
 </details>
 
 ---
 
-### 📡 Ping & Enlaces de Contacto
+### 📡 Ping & Contacto
 
 ```bash
-guest@luis-node:~$ ping -c 1 contact.network
+[luis@terminal ~]$ ping -c 1 contacto.network
 ```
 
 ```text
-PING contact.network (luistraad@gmail.com): 56 data bytes
+PING contacto.network (luistraad@gmail.com): 56 data bytes
 64 bytes from luisGCarpio: icmp_seq=1 ttl=64 time=0.042 ms
 
---- contact.network ping statistics ---
-1 packets transmitted, 1 packets received, 0.0% packet loss
+--- estadisticas de ping ---
+1 paquetes transmitidos, 1 recibidos, 0.0% perdida de paquetes
 ```
 
 <div align="center">
