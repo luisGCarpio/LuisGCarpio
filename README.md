@@ -17,17 +17,17 @@
       |  o o o  |     -------------------
       | [=====] |     Nombre       : Luis Carpio
       +---------+     Especialidad : Desarrollador Backend & Bases de Datos
-      |  o o o  |     Stack Core   : TypeScript · Python · Node.js · NestJS · FastAPI · REST APIs
-      | [=====] |     Bases Datos  : PostgreSQL · MySQL · Redis · Prisma · SQL · Neon · Supabase
-      +---------+     DevOps/Cloud : Docker · Git · GitHub Actions · CI/CD · Cloud Computing · Render · Vercel
-      |  o o o  |     Seguridad    : OWASP · Web Security · API Security · Authentication · Pentesting
+      |  o o o  |     Stack        : TypeScript · Python · Go · Rust · NestJS · FastAPI · Next.js
+      | [=====] |     Datos & DB   : PostgreSQL · MySQL · Redis · Prisma · SQL · Neon · Supabase
+      +---------+     DevOps/Cloud : Docker · Git · GitHub Actions · CI/CD · Cloud · Render · Vercel
+      |  o o o  |     Seguridad    : OWASP · Web & API Security · Authentication · Pentesting
       | [=====] |     Herramientas : VS Code · Obsidian · Expo · Android Studio
       +---------+     Uptime       : 99.9% (alimentado a café)
 ```
 
 ---
 
-### ⚡ Backend y APIs
+### 💻 Stack
 
 <p align="left">
   <img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
@@ -35,12 +35,12 @@
   <img src="https://img.shields.io/badge/NODE.JS-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/NESTJS-E0234E?style=for-the-badge&logo=nestjs&logoColor=white" />
   <img src="https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/GO-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/RUST-000000?style=for-the-badge&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/REACT_NATIVE-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/NEXT.JS-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
   <img src="https://img.shields.io/badge/REST_APIS-005571?style=for-the-badge&logo=fastapi&logoColor=white" />
-</p>
-
-### 🗄️ Bases de datos
-
-<p align="left">
   <img src="https://img.shields.io/badge/POSTGRESQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
   <img src="https://img.shields.io/badge/REDIS-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
@@ -48,11 +48,6 @@
   <img src="https://img.shields.io/badge/SQL-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
   <img src="https://img.shields.io/badge/NEON-00E599?style=for-the-badge&logo=postgresql&logoColor=black" />
   <img src="https://img.shields.io/badge/SUPABASE-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
-</p>
-
-### ☁️ DevOps y Cloud
-
-<p align="left">
   <img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/GIT-F05032?style=for-the-badge&logo=git&logoColor=white" />
   <img src="https://img.shields.io/badge/GITHUB_ACTIONS-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
@@ -60,11 +55,6 @@
   <img src="https://img.shields.io/badge/CLOUD_COMPUTING-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
   <img src="https://img.shields.io/badge/RENDER-46E3B7?style=for-the-badge&logo=render&logoColor=black" />
   <img src="https://img.shields.io/badge/VERCEL-000000?style=for-the-badge&logo=vercel&logoColor=white" />
-</p>
-
-### 🛡️ Ciberseguridad
-
-<p align="left">
   <img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white" />
   <img src="https://img.shields.io/badge/WEB_SECURITY-E0234E?style=for-the-badge&logo=security&logoColor=white" />
   <img src="https://img.shields.io/badge/API_SECURITY-005571?style=for-the-badge&logo=shield&logoColor=white" />
