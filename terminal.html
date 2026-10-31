@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background-color: #0d1117;
+    font-family: 'Cascadia Code', 'Consolas', 'Courier New', monospace;
+    width: 900px;
+    height: 470px;
+    overflow: hidden;
+  }
+  .window {
+    width: 900px;
+    height: 470px;
+    background-color: #0c0d10;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .titlebar {
+    background-color: #161b22;
+    padding: 7px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #21262d;
+    flex-shrink: 0;
+  }
+  .title-text {
+    color: #c9d1d9;
+    font-size: 13px;
+    font-weight: 500;
+  }
+  .window-controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  .win-btn {
+    width: 14px;
+    height: 12px;
+    border: 1px solid #8b949e;
+    display: inline-block;
+  }
+  .win-close {
+    position: relative;
+    width: 12px;
+    height: 12px;
+  }
+  .win-close::before, .win-close::after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 12px;
+    height: 1.5px;
+    background-color: #ff4d4d;
+  }
+  .win-close::before { transform: rotate(45deg); }
+  .win-close::after { transform: rotate(-45deg); }
+
+  .menubar {
+    background-color: #0d1117;
+    padding: 4px 16px;
+    border-bottom: 1px solid #21262d;
+    color: #8b949e;
+    font-size: 12px;
+    flex-shrink: 0;
+  }
+  .menubar span {
+    margin-right: 18px;
+  }
+
+  .terminal-body {
+    padding: 12px 18px;
+    color: #e6edf3;
+    font-size: 13px;
+    line-height: 1.35;
+    flex-grow: 1;
+  }
+  .prompt {
+    margin-bottom: 10px;
+  }
+  .prompt-user {
+    color: #3fb950;
+    font-weight: bold;
+  }
+  .prompt-cmd {
+    color: #ffffff;
+  }
+
+  .content-grid {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+  }
+
+  .ascii-art {
+    color: #ff4d4d;
+    white-space: pre;
+    font-family: 'Cascadia Code', 'Consolas', monospace;
+    font-size: 13px;
+    line-height: 1.25;
+    font-weight: bold;
+  }
+
+  .specs {
+    flex: 1;
+    white-space: pre;
+    line-height: 1.45;
+  }
+  .spec-header {
+    color: #ff4d4d;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  .spec-divider {
+    color: #ff4d4d;
+    margin-bottom: 4px;
+  }
+  .label {
+    color: #ff4d4d;
+    font-weight: bold;
+  }
+  .val {
+    color: #e6edf3;
+  }
+
+  .palette {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+  .palette-row {
+    display: flex;
+    gap: 2px;
+  }
+  .color-box {
+    width: 28px;
+    height: 14px;
+  }
+
+  .bottom-prompt {
+    margin-top: 10px;
+  }
+  .cursor {
+    color: #ffffff;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+
+<div class="window">
+  <div class="titlebar">
+    <div class="title-text">Terminal - luis@backend-cluster: ~</div>
+    <div class="window-controls">
+      <div class="win-btn"></div>
+      <div class="win-btn"></div>
+      <div class="win-close"></div>
+    </div>
+  </div>
+  <div class="menubar">
+    <span>Archivo</span>
+    <span>Editar</span>
+    <span>Ver</span>
+    <span>Terminal</span>
+    <span>Pestañas</span>
+    <span>Ayuda</span>
+  </div>
+  <div class="terminal-body">
+    <div class="prompt">
+      <span class="prompt-user">luis@backend-cluster:~$</span> <span class="prompt-cmd">fastfetch</span>
+    </div>
+
+    <div class="content-grid">
+      <div class="ascii-art">       _,met$$$$$gg.
+    ,g$$$$$$$$$$$$$$$P.
+  ,g$$P"        """Y$$.
+ ,$$P'              `$$$.
+',$$P       ,ggs.     `$$b:
+`d$$'     ,$P"'   .    $$$
+ $$P      d$'     ,    $$P
+ $$:      $$.   -    ,d$$'
+ $$;      Y$b._   _,d$P'
+ Y$$.      `."T$$$$P"'
+  `$$b      "-.__
+   `Y$$b
+    `Y$$.
+      `$$b.
+        `Y$$b.
+          `"Y$b._
+              `"""</div>
+
+      <div class="specs">
+        <div class="spec-header">luis@backend-cluster</div>
+        <div class="spec-divider">--------------------</div>
+        <div><span class="label">Rol: </span><span class="val">Desarrollador Backend & Bases de Datos</span></div>
+        <div><span class="label">Ubicación: </span><span class="val">Colombia</span></div>
+        <div><span class="label">Stack: </span><span class="val">TypeScript · Python · Go · Rust · NestJS · FastAPI · Next.js</span></div>
+        <div><span class="label">Bases Datos: </span><span class="val">PostgreSQL · Redis · Prisma · Neon · Supabase</span></div>
+        <div><span class="label">DevOps & Cloud: </span><span class="val">Docker · Nginx · Git · GitHub Actions · CI/CD · Render · Vercel</span></div>
+        <div><span class="label">Seguridad: </span><span class="val">OWASP · Web & API Security · JWT · Authentication</span></div>
+        <div><span class="label">Herramientas: </span><span class="val">VS Code · Obsidian · Expo · Android Studio</span></div>
+        <div><span class="label">Filosofía: </span><span class="val">Diseño técnico sólido, baja latencia y máxima eficiencia</span></div>
+        <div><span class="label">Uptime: </span><span class="val">99.9% (alimentado a café)</span></div>
+
+        <div class="palette">
+          <div class="palette-row">
+            <div class="color-box" style="background:#2e3436"></div>
+            <div class="color-box" style="background:#cc0000"></div>
+            <div class="color-box" style="background:#4e9a06"></div>
+            <div class="color-box" style="background:#c4a000"></div>
+            <div class="color-box" style="background:#3465a4"></div>
+            <div class="color-box" style="background:#75507b"></div>
+            <div class="color-box" style="background:#06989a"></div>
+            <div class="color-box" style="background:#d3d7cf"></div>
+          </div>
+          <div class="palette-row">
+            <div class="color-box" style="background:#555753"></div>
+            <div class="color-box" style="background:#ef2929"></div>
+            <div class="color-box" style="background:#8ae234"></div>
+            <div class="color-box" style="background:#fce94f"></div>
+            <div class="color-box" style="background:#729fcf"></div>
+            <div class="color-box" style="background:#ad7fa8"></div>
+            <div class="color-box" style="background:#34e2e2"></div>
+            <div class="color-box" style="background:#eeeeec"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom-prompt">
+      <span class="prompt-user">luis@backend-cluster:~$</span> <span class="cursor">█</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

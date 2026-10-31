@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./fastfetch.svg" alt="Terminal Fastfetch" width="100%" />
+  <img src="https://raw.githubusercontent.com/luisGCarpio/LuisGCarpio/main/fastfetch.png" alt="Terminal Fastfetch" width="100%" />
 </div>
 
 ---
@@ -62,9 +62,9 @@ Soy desarrollador backend. Me dedico a estructurar y construir soluciones que fu
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./pacman-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./pacman-light.svg">
-    <img alt="Pacman Contribution Arcade" src="./pacman-dark.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luisGCarpio/LuisGCarpio/main/pacman-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luisGCarpio/LuisGCarpio/main/pacman-light.svg">
+    <img alt="Pacman Contribution Arcade" src="https://raw.githubusercontent.com/luisGCarpio/LuisGCarpio/main/pacman-dark.svg" width="100%">
   </picture>
 </div>
 
