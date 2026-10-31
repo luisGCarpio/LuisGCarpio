@@ -21,62 +21,9 @@
     display: flex;
     flex-direction: column;
   }
-  .titlebar {
-    background-color: #161b22;
-    padding: 7px 16px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid #21262d;
-    flex-shrink: 0;
-  }
-  .title-text {
-    color: #c9d1d9;
-    font-size: 13px;
-    font-weight: 500;
-  }
-  .window-controls {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-  }
-  .win-btn {
-    width: 14px;
-    height: 12px;
-    border: 1px solid #8b949e;
-    display: inline-block;
-  }
-  .win-close {
-    position: relative;
-    width: 12px;
-    height: 12px;
-  }
-  .win-close::before, .win-close::after {
-    content: '';
-    position: absolute;
-    top: 5px;
-    left: 0;
-    width: 12px;
-    height: 1.5px;
-    background-color: #ff4d4d;
-  }
-  .win-close::before { transform: rotate(45deg); }
-  .win-close::after { transform: rotate(-45deg); }
-
-  .menubar {
-    background-color: #0d1117;
-    padding: 4px 16px;
-    border-bottom: 1px solid #21262d;
-    color: #8b949e;
-    font-size: 12px;
-    flex-shrink: 0;
-  }
-  .menubar span {
-    margin-right: 18px;
-  }
 
   .terminal-body {
-    padding: 12px 18px;
+    padding: 14px 18px;
     color: #e6edf3;
     font-size: 12.5px;
     line-height: 1.35;
@@ -199,10 +146,10 @@
         <div class="item"><span class="label">Memory: </span><span class="val">16.00 GiB</span></div>
         <div class="item"><span class="label">Containers: </span><span class="val">Docker Engine (APIs &amp; Bases de datos activas)</span></div>
         <div class="item"><span class="label">Primary Stack: </span><span class="val">TypeScript · Python · Go · Rust · Next.js</span></div>
-        <div class="item"><span class="label">Backend Core: </span><span class="val">NestJS · FastAPI · REST APIs</span></div>
+        <div class="item"><span class="label">Backend Core: </span><span class="val">NestJS · FastAPI</span></div>
         <div class="item"><span class="label">Databases: </span><span class="val">PostgreSQL · Redis · Prisma · Neon · Supabase</span></div>
-        <div class="item"><span class="label">DevOps &amp; Infra: </span><span class="val">Nginx · Git · GitHub Actions · CI/CD · Render · Vercel</span></div>
-        <div class="item"><span class="label">Security: </span><span class="val">OWASP · Web &amp; API Security · JWT · Authentication</span></div>
+        <div class="item"><span class="label">DevOps &amp; Infra: </span><span class="val">Nginx · Git · GitHub Actions · Render · Vercel</span></div>
+        <div class="item"><span class="label">Security: </span><span class="val">OWASP · JWT</span></div>
         <div class="item"><span class="label">Philosophy: </span><span class="val">Diseño previo sólido, baja latencia y cero fricción</span></div>
         <div class="item"><span class="label">Locale: </span><span class="val">es_CO.UTF-8</span></div>
 
