@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 ¡Hola! Soy Luis Carpio
+# ¡Hola! Soy Luis Carpio
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=7AA2F7&center=true&vcenter=true&width=580&lines=%C2%A1Buenas!+Bienvenido+a+mi+espacio;Desarrollador+Backend+%7C+NestJS+%26+FastAPI;Arquitectura+de+Datos+%26+PostgreSQL;Enfocado+en+APIs+limpias+y+cero+fricci%C3%B3n" alt="Typing SVG" />
@@ -27,17 +27,13 @@
 
 ---
 
-### 📌 Sobre mí
+### Sobre mí
 
-Desarrollador backend enfocado en arquitectura, rendimiento y bases de datos.
-
-- 📐 **Diseño antes que código:** Dedico más tiempo a planear, estructurar y diseñar la arquitectura que a escribir código a lo loco. Un buen modelado previo y una lógica clara ahorran semanas de refactorización y dolores de cabeza en producción.
-- ⚡ **Rendimiento y eficiencia:** Me enfoco en construir soluciones que funcionen lo más eficiente y rápido posible, priorizando baja latencia, consumo óptimo de recursos y cero fricción.
-- 🧠 **En constante aprendizaje:** Explorando continuamente nuevas tecnologías, optimizaciones de bases de datos, patrones de concurrencia y seguridad para seguir perfeccionando cada solución.
+Soy desarrollador backend enfocado en construir soluciones que funcionen lo más eficiente y rápido posible. Suelo dedicar más tiempo a planear, estructurar y diseñar la arquitectura antes de escribir código, priorizando bases de datos bien modeladas y servicios estables desde el inicio. Me mantengo en constante aprendizaje, explorando nuevas tecnologías, patrones de diseño y seguridad para resolver problemas de forma limpia y directa.
 
 ---
 
-### 💻 Stack
+### Stack
 
 <p align="left">
   <img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
@@ -70,7 +66,7 @@ Desarrollador backend enfocado en arquitectura, rendimiento y bases de datos.
   <img src="https://img.shields.io/badge/AUTHENTICATION-333333?style=for-the-badge&logo=authy&logoColor=white" />
 </p>
 
-### 🛠️ Herramientas y entorno
+### Herramientas y entorno
 
 <p align="left">
   <img src="https://img.shields.io/badge/VS_CODE-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" />
@@ -81,7 +77,7 @@ Desarrollador backend enfocado en arquitectura, rendimiento y bases de datos.
 
 ---
 
-### 🕹️ Pac-Man Contribution Arcade
+### Pac-Man Arcade
 
 ```bash
 [luis@arcade ~]$ pacman --arcade-mode --eat-contributions
@@ -97,7 +93,7 @@ Desarrollador backend enfocado en arquitectura, rendimiento y bases de datos.
 
 ---
 
-### 📡 Ping & Contacto
+### Contacto
 
 ```bash
 [luis@terminal ~]$ ping -c 1 contacto.network
