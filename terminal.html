@@ -7,13 +7,13 @@
   html, body {
     background-color: #0d1117;
     font-family: 'Cascadia Code', 'Consolas', 'Courier New', monospace;
-    width: 900px;
-    height: 470px;
+    width: 960px;
+    height: 560px;
     overflow: hidden;
   }
   .window {
-    width: 900px;
-    height: 470px;
+    width: 960px;
+    height: 560px;
     background-color: #0c0d10;
     border: 1px solid #30363d;
     border-radius: 8px;
@@ -78,12 +78,12 @@
   .terminal-body {
     padding: 12px 18px;
     color: #e6edf3;
-    font-size: 13px;
+    font-size: 12.5px;
     line-height: 1.35;
     flex-grow: 1;
   }
   .prompt {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
   .prompt-user {
     color: #3fb950;
@@ -95,7 +95,7 @@
 
   .content-grid {
     display: flex;
-    gap: 24px;
+    gap: 22px;
     align-items: flex-start;
   }
 
@@ -110,8 +110,7 @@
 
   .specs {
     flex: 1;
-    white-space: pre;
-    line-height: 1.45;
+    line-height: 1.4;
   }
   .spec-header {
     color: #ff4d4d;
@@ -122,6 +121,11 @@
     color: #ff4d4d;
     margin-bottom: 4px;
   }
+  .item {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
   .label {
     color: #ff4d4d;
     font-weight: bold;
@@ -131,7 +135,7 @@
   }
 
   .palette {
-    margin-top: 10px;
+    margin-top: 8px;
     display: flex;
     flex-direction: column;
     gap: 3px;
@@ -141,12 +145,12 @@
     gap: 2px;
   }
   .color-box {
-    width: 28px;
-    height: 14px;
+    width: 26px;
+    height: 13px;
   }
 
   .bottom-prompt {
-    margin-top: 10px;
+    margin-top: 8px;
   }
   .cursor {
     color: #ffffff;
@@ -200,15 +204,24 @@
       <div class="specs">
         <div class="spec-header">luis@backend-cluster</div>
         <div class="spec-divider">--------------------</div>
-        <div><span class="label">Rol: </span><span class="val">Desarrollador Backend & Bases de Datos</span></div>
-        <div><span class="label">Ubicación: </span><span class="val">Colombia</span></div>
-        <div><span class="label">Stack: </span><span class="val">TypeScript · Python · Go · Rust · NestJS · FastAPI · Next.js</span></div>
-        <div><span class="label">Bases Datos: </span><span class="val">PostgreSQL · Redis · Prisma · Neon · Supabase</span></div>
-        <div><span class="label">DevOps & Cloud: </span><span class="val">Docker · Nginx · Git · GitHub Actions · CI/CD · Render · Vercel</span></div>
-        <div><span class="label">Seguridad: </span><span class="val">OWASP · Web & API Security · JWT · Authentication</span></div>
-        <div><span class="label">Herramientas: </span><span class="val">VS Code · Obsidian · Expo · Android Studio</span></div>
-        <div><span class="label">Filosofía: </span><span class="val">Diseño técnico sólido, baja latencia y máxima eficiencia</span></div>
-        <div><span class="label">Uptime: </span><span class="val">99.9% (alimentado a café)</span></div>
+        <div class="item"><span class="label">OS: </span><span class="val">Debian GNU/Linux 13 (trixie) x86_64</span></div>
+        <div class="item"><span class="label">Host: </span><span class="val">Production Cluster / Dev Node</span></div>
+        <div class="item"><span class="label">Kernel: </span><span class="val">Linux 6.12.18-amd64</span></div>
+        <div class="item"><span class="label">Uptime: </span><span class="val">99.98% (zero unhandled exceptions)</span></div>
+        <div class="item"><span class="label">Shell: </span><span class="val">zsh 5.9 / bash 5.2.37</span></div>
+        <div class="item"><span class="label">Terminal: </span><span class="val">xfce4-terminal 1.1.4</span></div>
+        <div class="item"><span class="label">Terminal Font: </span><span class="val">Cascadia Code / JetBrains Mono (13pt)</span></div>
+        <div class="item"><span class="label">Editor: </span><span class="val">Visual Studio Code · Obsidian</span></div>
+        <div class="item"><span class="label">CPU: </span><span class="val">AMD Ryzen / Intel Core (16 threads)</span></div>
+        <div class="item"><span class="label">Memory: </span><span class="val">16.00 GiB (optimizado para microservicios)</span></div>
+        <div class="item"><span class="label">Containers: </span><span class="val">Docker Engine (APIs &amp; Bases de datos activas)</span></div>
+        <div class="item"><span class="label">Primary Stack: </span><span class="val">TypeScript · Python · Go · Rust · Next.js</span></div>
+        <div class="item"><span class="label">Backend Core: </span><span class="val">NestJS · FastAPI · REST APIs</span></div>
+        <div class="item"><span class="label">Databases: </span><span class="val">PostgreSQL · Redis · Prisma · Neon · Supabase</span></div>
+        <div class="item"><span class="label">DevOps &amp; Infra: </span><span class="val">Nginx · Git · GitHub Actions · CI/CD · Render · Vercel</span></div>
+        <div class="item"><span class="label">Security: </span><span class="val">OWASP · Web &amp; API Security · JWT · Authentication</span></div>
+        <div class="item"><span class="label">Philosophy: </span><span class="val">Diseño previo sólido, baja latencia y cero fricción</span></div>
+        <div class="item"><span class="label">Locale: </span><span class="val">es_CO.UTF-8</span></div>
 
         <div class="palette">
           <div class="palette-row">
