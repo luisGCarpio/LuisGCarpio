@@ -29,7 +29,7 @@
 
 ### Sobre mí
 
-Soy desarrollador backend enfocado en construir soluciones que funcionen lo más eficiente y rápido posible. Suelo dedicar más tiempo a planear, estructurar y diseñar la arquitectura antes de escribir código, priorizando bases de datos bien modeladas y servicios estables desde el inicio. Me mantengo en constante aprendizaje, explorando nuevas tecnologías, patrones de diseño y seguridad para resolver problemas de forma limpia y directa.
+Soy desarrollador backend. Me dedico a estructurar y construir soluciones que funcionen lo más eficiente y rápido posible, priorizando siempre el diseño técnico y la arquitectura sólida sobre el código apresurado. Tengo especial interés en la persistencia de datos, la seguridad en capas de API y el aprendizaje constante de las tecnologías que sustentan sistemas escalables.
 
 ---
 
