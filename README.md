@@ -27,6 +27,16 @@
 
 ---
 
+### 📌 Sobre mí
+
+Desarrollador backend enfocado en arquitectura, rendimiento y bases de datos.
+
+- 📐 **Diseño antes que código:** Dedico más tiempo a planear, estructurar y diseñar la arquitectura que a escribir código a lo loco. Un buen modelado previo y una lógica clara ahorran semanas de refactorización y dolores de cabeza en producción.
+- ⚡ **Rendimiento y eficiencia:** Me enfoco en construir soluciones que funcionen lo más eficiente y rápido posible, priorizando baja latencia, consumo óptimo de recursos y cero fricción.
+- 🧠 **En constante aprendizaje:** Explorando continuamente nuevas tecnologías, optimizaciones de bases de datos, patrones de concurrencia y seguridad para seguir perfeccionando cada solución.
+
+---
+
 ### 💻 Stack
 
 <p align="left">
@@ -84,57 +94,6 @@
     <img alt="Pacman Contribution Arcade" src="./pacman-dark.svg" width="100%">
   </picture>
 </div>
-
----
-
-### 🚀 Servicios Activos & Proyectos
-
-```bash
-[luis@cluster ~]$ kubectl get services -o custom-columns=SERVICIO:.metadata.name,ESTADO:.status.phase,STACK:.spec.type
-```
-
-<details open>
-<summary><b>🟢 <code>wood-api.service</code> — Motor Financiero y Cálculo de Balances</b></summary>
-<br>
-
-| Métrica / Propiedad | Detalle |
-| :--- | :--- |
-| **Estado** | `● activo (running)` — Backend transaccional de alta respuesta |
-| **Stack** | `NestJS 11` · `Prisma 6` · `PostgreSQL (Neon Serverless)` · `Render HTTPS` · `Expo SDK 58` |
-| **Endpoints Clave** | `POST /movimientos` (registro en <5s) · `GET /balance/diario` · `GET /metas/progreso` |
-| **Propósito** | Diseñado para microempresarios sin fricción contable: calcula utilidades reales sin arqueos manuales ni descuadre de caja. |
-
-</details>
-
-<br>
-
-<details open>
-<summary><b>🟢 <code>lasana-erp.service</code> — API Farmacéutica Multisede e Inventario</b></summary>
-<br>
-
-| Métrica / Propiedad | Detalle |
-| :--- | :--- |
-| **Estado** | `● activo (running)` — Hub logístico y POS empresarial |
-| **Stack** | `NestJS` · `Prisma ORM` · `PostgreSQL (Supabase)` · `JWT / RBAC` · `Swagger Docs` |
-| **Endpoints Clave** | `POST /pos/checkout` · `GET /inventario/fefo-lotes` · `POST /transferencias/inter-sede` |
-| **Propósito** | Política de inventario estricta **FEFO** (*First Expired, First Out*) para evitar vencimiento de medicamentos, auditoría de cajas y control de roles por sucursal. |
-
-</details>
-
-<br>
-
-<details open>
-<summary><b>🟢 <code>pysec-flow.service</code> — Micro-SIEM y Detección de Amenazas</b></summary>
-<br>
-
-| Métrica / Propiedad | Detalle |
-| :--- | :--- |
-| **Estado** | `● activo (running)` — Telemetría autónoma de ciberseguridad |
-| **Stack** | `Python 3.11+` · `FastAPI` · `Pydantic v2` · `MITRE ATT&CK` · `AbuseIPDB API` · `SQLite/Postgres` |
-| **Endpoints Clave** | `POST /api/v1/ingest` · `GET /api/v1/incidents` · `WS /telemetry/stream` |
-| **Propósito** | Correlación en ventanas de tiempo deslizantes para detección de fuerza bruta SSH y escaneos web; enriquecimiento IP con threat intelligence global y alertas automáticas a Telegram. |
-
-</details>
 
 ---
 
