@@ -1,29 +1,6 @@
 <div align="center">
-
-# ¡Hola! Soy Luis Carpio
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=3000&pause=1000&color=7AA2F7&center=true&vcenter=true&width=580&lines=%C2%A1Buenas!+Bienvenido+a+mi+espacio;Desarrollador+Backend+%7C+NestJS+%26+FastAPI;Arquitectura+de+Datos+%26+PostgreSQL;Enfocado+en+APIs+limpias+y+cero+fricci%C3%B3n" alt="Typing SVG" />
-</p>
-
+  <img src="./fastfetch.svg" alt="Terminal Fastfetch" width="100%" />
 </div>
-
-```bash
-[luis@backend-server ~]$ neofetch --resumen
-```
-
-```text
-      +---------+     luis@backend-server
-      |  o o o  |     -------------------
-      | [=====] |     Nombre       : Luis Carpio
-      +---------+     Especialidad : Desarrollador Backend & Bases de Datos
-      |  o o o  |     Stack        : TypeScript · Python · Go · Rust · NestJS · FastAPI · Next.js
-      | [=====] |     Datos & DB   : PostgreSQL · Redis · Prisma · Neon · Supabase
-      +---------+     DevOps/Cloud : Docker · Nginx · Git · GitHub Actions · CI/CD · Render · Vercel
-      |  o o o  |     Seguridad    : OWASP · Web & API Security · JWT · Authentication
-      | [=====] |     Herramientas : VS Code · Obsidian · Expo · Android Studio
-      +---------+     Uptime       : 99.9% (alimentado a café)
-```
 
 ---
 
