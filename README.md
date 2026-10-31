@@ -6,7 +6,13 @@
 
 ### Sobre mí
 
-Soy desarrollador backend. Me dedico a estructurar y construir soluciones que funcionen lo más eficiente y rápido posible, priorizando siempre el diseño técnico y la arquitectura sólida sobre el código apresurado. Tengo especial interés en la persistencia de datos, la seguridad en capas de API y el aprendizaje constante de las tecnologías que sustentan sistemas escalables.
+Soy estudiante de desarrollo de software, con interés en backend engineering, arquitectura de sistemas, bases de datos y ciberseguridad. Me gusta experimentar con distintas tecnologías, entender cómo funcionan los sistemas y construir proyectos para aprender.
+
+---
+
+### Intereses
+
+Backend Engineering · System Design · Application Security · Infrastructure · Database Engineering · Open Source
 
 ---
 
@@ -54,17 +60,20 @@ Soy desarrollador backend. Me dedico a estructurar y construir soluciones que fu
 
 ---
 
-### Pac-Man Arcade
+### Actividad
 
-```bash
-[luis@arcade ~]$ pacman --arcade-mode --eat-contributions
-```
+<div align="center">
+  <img src="https://github-stats-alpha.vercel.app/api?username=luisGCarpio&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats-tau-ochre.vercel.app/api/top-langs/?username=luisGCarpio&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+</div>
+
+<br>
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luisGCarpio/LuisGCarpio/main/pacman-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luisGCarpio/LuisGCarpio/main/pacman-light.svg">
-    <img alt="Pacman Contribution Arcade" src="https://raw.githubusercontent.com/luisGCarpio/LuisGCarpio/main/pacman-dark.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luisGCarpio/LuisGCarpio/main/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luisGCarpio/LuisGCarpio/main/github-snake.svg">
+    <img alt="Contribution Snake" src="https://raw.githubusercontent.com/luisGCarpio/LuisGCarpio/main/github-snake-dark.svg" width="100%">
   </picture>
 </div>
 
